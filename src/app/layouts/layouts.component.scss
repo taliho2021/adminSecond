@@ -319,8 +319,10 @@
   
   .container {
     border-radius: 40px;
+    max-width: 80%;
     background-color: #f2f2f2;
     padding: 20px;
+    align-self: center;
   }
   
   .col-25 {
