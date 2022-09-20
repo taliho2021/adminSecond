@@ -1,0 +1,43 @@
+mat-card {
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+
+fieldset {
+  background-color: #eeeeee;
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+  max-width: 80%;
+  margin: auto;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
