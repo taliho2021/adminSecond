@@ -1,25 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
-import { FormArray, UntypedFormBuilder, Validators } from '@angular/forms';
->>>>>>> 2d2ce42e6b89fa1b1a900126ef0d6d368c6d6ff1
+import { FormArray, FormControl, FormGroupDirective, NgForm, UntypedFormBuilder, Validators } from '@angular/forms';
+
+
 
 @Component({
   selector: 'app-air-ams-dashboard',
   templateUrl: './air-ams-dashboard.component.html',
-<<<<<<< HEAD
-  styleUrls: ['./air-ams-dashboard.component.scss']
-})
-export class AirAmsDashboardComponent implements OnInit {
-
-  date1 = new Date()
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-=======
   styleUrls: ['./air-ams-dashboard.component.scss'],
 })
 export class AirAmsDashboardComponent implements OnInit {
@@ -123,6 +109,9 @@ export class AirAmsDashboardComponent implements OnInit {
     '04 - Clerical error in manifesting per bill of lading in files',
     '05 - Pilfered or prematurely landed prior to arrival in United States per signed statement of master or his agent or vessel log extract in our file',
   ];
+
+
+  
   constructor(private fb: UntypedFormBuilder) {}
 
   ngOnInit(): void {}
@@ -134,5 +123,4 @@ export class AirAmsDashboardComponent implements OnInit {
   clearForm(): void {
     this.amsForm.reset();
   }
->>>>>>> 2d2ce42e6b89fa1b1a900126ef0d6d368c6d6ff1
 }

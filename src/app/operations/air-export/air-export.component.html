@@ -1,1 +1,68 @@
-<p>air-export works!</p>
+<form>
+  <fieldset>
+    <legend>Details</legend>
+    <div fxLayout="column">
+      <div fxLayout="row">
+        <mat-form-field appearance="fill">
+          <mat-label>Input</mat-label>
+          <input matInput />
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Select</mat-label>
+          <mat-select>
+            <mat-option value="one">First option</mat-option>
+            <mat-option value="two">Second option</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Textarea</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+      </div>
+
+      <div fxLayout="row">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </div>
+
+      <div fxLayout="row">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<fieldset form="form1">
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" form="form1" /><br /><br />
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" form="form1" />
+</fieldset>
