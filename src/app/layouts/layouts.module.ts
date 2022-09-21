@@ -6,6 +6,10 @@ import { LayoutsComponent } from './layouts.component';
 import { FooterComponent } from './footer/footer.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -17,6 +21,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     CommonModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatSidenavModule, 
+    MatListModule,
     LayoutsRoutingModule
   ]
 })

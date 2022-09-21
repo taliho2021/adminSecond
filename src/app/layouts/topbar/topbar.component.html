@@ -1,1 +1,44 @@
-<p>topbar works!</p>
+<mat-toolbar color="primary">
+  <button mat-icon-button aria-label="Toggle sidenav" mat-icon-button>
+    <!-- *ngIf="isHandset$ | async"> -->
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span>
+    <img
+      src="../../../assets/images/whiteflowers.jpg"
+      alt="ANA Link. Ltd"
+      width="70"
+      height="40"
+    />
+  </span>
+
+  <span class="name1">ANA Link</span>
+
+  <span class="example-spacer"></span>
+  <button
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>share</mat-icon>
+  </button>
+
+  <span class="toolbar-filler"></span>
+  <input type="search" value="search" />
+  <button
+    id="button-logout"
+    type="button"
+    class="btn btn-warning"
+    (click)="logout()"
+  >
+    Log Out
+  </button>
+</mat-toolbar>
