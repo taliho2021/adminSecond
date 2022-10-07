@@ -289,7 +289,7 @@
   * {
     box-sizing: border-box;
   }
-  
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -297,12 +297,12 @@
     border-radius: 4px;
     resize: vertical;
   }
-  
+
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  
+
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -312,11 +312,11 @@
     cursor: pointer;
     float: right;
   }
-  
+
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
   .container {
     border-radius: 40px;
     max-width: 80%;
@@ -324,40 +324,40 @@
     padding: 20px;
     align-self: center;
   }
-  
+
   .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
-  
+
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
 
     .example-container {
       width: auto;
       height: 300px;
       border: 1px solid rgba(0, 0, 0, 0.5);
     }
-  
+
     .example-sidenav-content {
       display: flex;
       height: 100%;
       align-items: center;
       justify-content: center;
     }
-  
+
     .example-sidenav {
       padding: 20px;
       width: 200px;
